@@ -72,10 +72,6 @@ function addText(text) {
     const input = document.createElement("input");
     input.type = "text";
     input.placeholder = "Eigen zin toevoegen...";
-    input.style.padding = "1rem";
-    input.style.marginTop = "1rem";
-    input.style.borderRadius = "8px";
-    input.style.width = "100%";
     container.appendChild(input);
   
     const addBtn = document.createElement("button");
