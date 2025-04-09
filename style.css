@@ -38,8 +38,8 @@ h1 {
 
 .circle button {
   position: absolute;
-  width: 100px;
-  height: 100px;
+  width: 90px;
+  height: 90px;
   border-radius: 50%;
   border: none;
   background: #fff;
@@ -124,24 +124,33 @@ h1 {
 }
 
 .actions {
-  margin-top: 1rem;
+  margin-top: 3rem;
   display: flex;
+  flex-wrap: wrap;
   gap: 1rem;
 }
 
 .actions button {
-  flex: 1;
   padding: 1rem 2.2rem;
   font-size: 1.3rem;
   border: none;
   border-radius: 8px;
-  background: rgb(8, 124, 35);
+  background: rgb(43, 13, 163);
   color: white;
   font-family: "Inter", sans-serif;
+  flex: 1;
+  margin: 0 0.5rem;
 }
-.actions button:last-of-type {
+
+.actions button:nth-of-type(2) {
   background: rgb(165, 8, 8);
   color: white;
+}
+
+.actions button:last-of-type {
+  background: rgb(17, 175, 62);
+  color: white;
+  flex: 2;
 }
 
 .back {
