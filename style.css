@@ -19,12 +19,19 @@ main {
   justify-content: center;
 }
 
+h1 {
+  color: #fff;
+  font-size: 2rem;
+  margin: 1rem 0;
+  font-family: "Inter", sans-serif;
+}
+
 .circle {
   position: relative;
   width: 100vw;
   height: 90vw;
   max-width: 320px;
-  /* max-height: 320px; */
+  max-height: 400px;
   border-radius: 50%;
   margin: 1rem 0;
 }
@@ -124,7 +131,7 @@ main {
 
 .actions button {
   flex: 1;
-  padding: 2.2rem;
+  padding: 1rem 2.2rem;
   font-size: 1.3rem;
   border: none;
   border-radius: 8px;
