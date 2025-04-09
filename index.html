@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Eric's Cirkelmenu</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <div class="circle" id="main-ring">
+        <button class="btn1" onclick="addText('Hey')">👋</button>
+        <button class="btn2" onclick="addText('Ik zit in de trein')">🚆</button>
+        <button class="btn3" onclick="addText('Ik reageer zo')">⌛</button>
+        <button class="btn4" onclick="addText('Tot straks!')">📩</button>
+        <button class="btn5" onclick="addText('😂')">😂</button>
+        <button class="btn6" onclick="addText('Wat doe je?')">❓</button>
+        <button class="btn7" onclick="addText('Nieuws lezen')">📰</button>
+        <button class="btn8" onclick="showShortcuts()">➕</button>
+      </div>
+
+      <!-- Shortcuts -->
+      <div class="shortcuts" id="shortcut-ring"></div>
+
+      <!-- Output -->
+      <div id="output" contenteditable="true"></div>
+
+      <div class="actions">
+        <button onclick="copyText()">📋 Kopieer</button>
+        <button onclick="clearText()">🧹 Wis</button>
+      </div>
+    </main>
+    <footer></footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
