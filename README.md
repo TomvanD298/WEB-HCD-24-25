@@ -12,7 +12,7 @@
  <a href="#brainstormen"> <li>Brainstormen</li></a>
  <a href="#schetsen"> <li>Schetsen/idee</li></a>
  <a href="#itteratie"><li>Itteraties</li></a>
- <a href="#testen"><li>Test/Gesprek 1</li></a>
+ <a href="#testen"><li>Test/Gesprek</li></a>
 </ol>
 
 <h2 id="oberservatie">1. Observaties</h2>
@@ -62,3 +62,7 @@ Een soort notitie app waarbij je ook eventueel dingen kan delen met andere?
 → Gebruikt de standaard toetsenborden.
 → swipe toetsenbord vind hij vreselijk
 → gestures zijn beperkt tot 1 input. Geen pinch oid.</p>
+
+
+<h3>Testen 2</h3>
+<p>Testen ging goed, Eric vond het een erg goed en leuk concept. Hij was al erg moe van al het andere testen, dus hij kon niet echt heel goed veel doen. </p>
