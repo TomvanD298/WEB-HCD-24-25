@@ -2,24 +2,29 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Eric's Cirkelmenu</title>
+    <title>Eric's App board</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header></header>
+    <header>
+      <h1>App board</h1>
+      <img src="./logo.png" />
+    </header>
     <main>
-      <h1>Eric's Cirkel</h1>
-
-      <div class="circle" id="main-ring">
-        <button class="btn1" onclick="addText('Hey')">👋</button>
-        <button class="btn2" onclick="addText('Ik zit in de trein')">🚆</button>
-        <button class="btn3" onclick="addText('Ik reageer zo')">⌛</button>
-        <button class="btn4" onclick="addText('Tot straks!')">📩</button>
-        <button class="btn5" onclick="addText('😂')">😂</button>
-        <button class="btn6" onclick="addText('Wat doe je?')">❓</button>
-        <button class="btn7" onclick="addText('Nieuws lezen')">📰</button>
-        <button class="btn8" onclick="showShortcuts()">➕</button>
+      <div class="grid" id="main-ring">
+        <button onclick="showShortcuts()">➕</button>
+        <button onclick="addText('Hey')">👋</button>
+        <button onclick="addText('Ik zit in de trein')">🚆</button>
+        <button onclick="addText('Ik reageer zo')">⌛</button>
+        <button onclick="addText('Tot straks!')">📩</button>
+        <button onclick="addText('😂')">😂</button>
+        <button onclick="addText('Wat doe je?')">❓</button>
+        <button onclick="addText('Nieuws lezen')">📰</button>
+        <button onclick="removeLastText()" class="back">🗑️</button>
+        <button onclick="addText('.')" class="tekens">.</button>
+        <button onclick="addText(',')" class="tekens">,</button>
+        <button onclick="addText('?')" class="tekens">?</button>
       </div>
 
       <!-- Shortcuts -->
