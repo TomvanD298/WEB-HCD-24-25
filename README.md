@@ -8,7 +8,7 @@
 
 <h2>inhoud:</h2>
 <ol>
- <a><li>Observaties</li></a>
+ <a href=""><li>Observaties</li></a>
   <a><li>Brainstormen</li></a>
   <a><li>Test/Gesprek 1</li></a>
 </ol>
@@ -40,6 +40,7 @@ Een soort notitie app waarbij je ook eventueel dingen kan delen met andere?
 
 <h3>Schetsen/idee</h3>
 <p>Een app die een beetje op een soort soundboard/stream deck lijkt. Dit is zijn enkele knoppen die meerdere acties kunnen doen door bijvoorbeeld zinnen te doen</p>
+
 
 
 
