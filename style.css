@@ -34,7 +34,7 @@ h1 {
   font-size: 2rem;
   font-family: "Inter", sans-serif;
   order: 2;
-  width: 80%;
+  width: 100%;
   text-align: center;
 }
 
@@ -129,6 +129,10 @@ header img {
   background-color: rgb(17, 175, 62);
   color: white;
   flex: 2;
+}
+
+.switchmodus {
+  background-color: skyblue;
 }
 
 input {

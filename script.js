@@ -13,12 +13,12 @@ function addText(text) {
     text = text.charAt(0).toLowerCase() + text.slice(1);
   }
 
-  // Voeg spatie toe als er geen staat
-  if (current.length > 0 && !current.endsWith(' ')) {
-    current += ' ';
+  text = text.trim();
+  if (/[.,!?]/.test(text.charAt(0))) {
+    output.innerText = current + text + ' ';
+  } else {
+    output.innerText = current + (current ? ' ' : '') + text + ' ';
   }
-
-  output.innerText = current + text + ' ';
   addedTexts.push(text);
 
   // ✅ Vibratie bij input
@@ -107,19 +107,19 @@ function generateShortcuts() {
   };
   container.appendChild(addBtn);
 
-  // Terugknop
-  const backBtn = document.createElement("button");
-  backBtn.textContent = "⬅️ Terug";
-  backBtn.className = "back";
-  backBtn.onclick = hideShortcuts;
-  container.appendChild(backBtn);
-
-  // 🗑️ Laatste ongedaan maken
+  // Laatste ongedaan maken
   const removeBtn = document.createElement("button");
   removeBtn.textContent = "🗑️ Laatste ongedaan maken";
   removeBtn.className = "back";
   removeBtn.onclick = removeLastText;
   container.appendChild(removeBtn);
+
+  // Terugknop
+  const backBtn = document.createElement("button");
+  backBtn.textContent = "⬅️ Terug";
+  backBtn.className = "switchmodus";
+  backBtn.onclick = hideShortcuts;
+  container.appendChild(backBtn);
 }
 
 // 📤 WhatsApp deelknop
