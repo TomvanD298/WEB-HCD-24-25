@@ -8,11 +8,11 @@
 
 <h2>inhoud:</h2>
 <ol>
- <a href="#oberservatie"><li>Observaties</li>
- <li>Brainstormen</li>
- <li>Schetsen/idee</li>
- <li>Itteraties</li>
- <li>Test/Gesprek 1</li>
+ <a href="#oberservatie"><li>Observaties</li></a>
+ <a href="#brainstormen"> <li>Brainstormen</li></a>
+ <a href="#schetsen"> <li>Schetsen/idee</li></a>
+ <a href="#itteratie"><li>Itteraties</li></a>
+ <a href="#testen"><li>Test/Gesprek 1</li></a>
 </ol>
 
 <h2 id="oberservatie">1. Observaties</h2>
@@ -26,44 +26,39 @@
 
 → Als het langzamer is dan typen, maakt het niet uit. Als die maar makkelijk kan switchen.</p>
 
-<h2>2. Brainstormen</h2>
+<h2 id="brainstormen">2. Brainstormen</h2>
 <p>Eric heeft zijn telefoon in een houder en hij tikt met een pennetje. In de trein beweegt zijn rolstoel ontzetten veel, waardoor dit ook lastig wordt.</p>
 <p>GROTE KOPPEN.
 
 Een soort notitie app waarbij je ook eventueel dingen kan delen met andere?
 
 → Niet te veel typen, en niet te veel zoeken.
-
 → Compact maar wel goed leesbaar vanaf een afstandje
-
 → Maakt gebruik van spraak, maar dat werkt niet altijd lekker, geeft vaak een linkje of veel tekst terug.
-
 → Actief informeren dmv bvb pushberichten</p>
 
-<h3>3. Schetsen/idee</h3>
+<h2 id="schetsen">3. Schetsen/idee</h2>
 <p>Een app die een beetje op een soort soundboard/stream deck lijkt. Dit is zijn enkele knoppen die meerdere acties kunnen doen door bijvoorbeeld zinnen te doen</p>
 <img width="300" alt="sketch" src="https://github.com/user-attachments/assets/47fb700c-567f-460b-83a2-29cd7c0bf7d9" />
+<img width="250" alt="Stream deck" src="https://github.com/user-attachments/assets/031b3f8b-7fb5-4964-921c-cddedcfd9606" />
 
-<h2>4. Itteraties</h2>
+
+<h2 id="itteratie">4. Itteraties</h2>
 <h3>Itteratie 1</h3>
 <p>Ik heb voor de eerste test een werkend prototype gemaakt.</p>
-<img height="300" alt="Screenshot screen 1" src="https://github.com/user-attachments/assets/644cbe9b-a418-4aec-85c2-7bab52e611b7" />
+<img height="300" alt="Screenshot screen 1" src="https://github.com/user-attachments/assets/d1c63df4-1ada-425d-9cbf-0f22b8aa6970" />
 
 
 <h3>Itteratie 2</h3>
-<p>Na een tijdje zelf er mee werken ben ik er achter dat de cirkel niet echt veel toegevoegde waarde heeft. ik heb er nu een </p>
+<p>Na een tijdje zelf er mee werken ben ik er achter dat de cirkel niet echt veel toegevoegde waarde heeft. Ik heb er nu een grid van gemaakt en dit maakt het al een stuk overzichtelijker. </p>
 
 
-<h2>5. Testen</h2>
+<h2 id="testen">5. Testen</h2>
 <h3>Test/gesprek 1</h3>
 <p>Probleem: Als Eric in de trein zit, dan heeft hij zijn telefoon op zijn controller. Hierdoor beweegt in de trein zijn telefoon. Ook zijn armen bewegen door de trilling in de trein.
 
 → hij gebruikt een android telefoon (google pixel) en werk Iphone → vooral grootte telefoon.
-
 → spraak al geprobeerd, maar vaak door de herrie gaat dit niet goed
-
 → Gebruikt de standaard toetsenborden.
-
 → swipe toetsenbord vind hij vreselijk
-
 → gestures zijn beperkt tot 1 input. Geen pinch oid.</p>
