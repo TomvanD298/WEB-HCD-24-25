@@ -8,13 +8,15 @@
 
 <h2>inhoud:</h2>
 <ol>
- <a href=""><li>Observaties</li></a>
-  <a><li>Brainstormen</li></a>
-  <a><li>Test/Gesprek 1</li></a>
+ <a href="#oberservatie"><li>Observaties</li>
+ <li>Brainstormen</li>
+ <li>Schetsen/idee</li>
+ <li>Itteraties</li>
+ <li>Test/Gesprek 1</li>
 </ol>
 
-<h2>1. Observaties</h2>
-<img width="300" alt="Scherm­afbeelding 2025-04-10 om 10 19 55" src="https://github.com/user-attachments/assets/7c6d44ce-4f16-497d-865a-cd3a56a21fb6" />
+<h2 id="oberservatie">1. Observaties</h2>
+<img width="300" alt="Hand van eric" src="https://github.com/user-attachments/assets/7c6d44ce-4f16-497d-865a-cd3a56a21fb6" />
 
 <p>→ Mobiel RECHTOP
 
@@ -40,10 +42,19 @@ Een soort notitie app waarbij je ook eventueel dingen kan delen met andere?
 
 <h3>3. Schetsen/idee</h3>
 <p>Een app die een beetje op een soort soundboard/stream deck lijkt. Dit is zijn enkele knoppen die meerdere acties kunnen doen door bijvoorbeeld zinnen te doen</p>
-<img width="300" alt="Scherm­afbeelding 2025-04-10 om 10 19 55" src="https://github.com/user-attachments/assets/47fb700c-567f-460b-83a2-29cd7c0bf7d9" />
+<img width="300" alt="sketch" src="https://github.com/user-attachments/assets/47fb700c-567f-460b-83a2-29cd7c0bf7d9" />
+
+<h2>4. Itteraties</h2>
+<h3>Itteratie 1</h3>
+<p>Ik heb voor de eerste test een werkend prototype gemaakt.</p>
+<img height="300" alt="Screenshot screen 1" src="https://github.com/user-attachments/assets/644cbe9b-a418-4aec-85c2-7bab52e611b7" />
 
 
-<h2>Testen</h2>
+<h3>Itteratie 2</h3>
+<p>Na een tijdje zelf er mee werken ben ik er achter dat de cirkel niet echt veel toegevoegde waarde heeft. ik heb er nu een </p>
+
+
+<h2>5. Testen</h2>
 <h3>Test/gesprek 1</h3>
 <p>Probleem: Als Eric in de trein zit, dan heeft hij zijn telefoon op zijn controller. Hierdoor beweegt in de trein zijn telefoon. Ook zijn armen bewegen door de trilling in de trein.
 
