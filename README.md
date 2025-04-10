@@ -13,7 +13,7 @@
   <a><li>Test/Gesprek 1</li></a>
 </ol>
 
-<h2>Observaties</h2>
+<h2>1. Observaties</h2>
 <img width="300" alt="Scherm­afbeelding 2025-04-10 om 10 19 55" src="https://github.com/user-attachments/assets/7c6d44ce-4f16-497d-865a-cd3a56a21fb6" />
 
 <p>→ Mobiel RECHTOP
@@ -24,7 +24,7 @@
 
 → Als het langzamer is dan typen, maakt het niet uit. Als die maar makkelijk kan switchen.</p>
 
-<h2>Brainstormen</h2>
+<h2>2. Brainstormen</h2>
 <p>Eric heeft zijn telefoon in een houder en hij tikt met een pennetje. In de trein beweegt zijn rolstoel ontzetten veel, waardoor dit ook lastig wordt.</p>
 <p>GROTE KOPPEN.
 
@@ -38,13 +38,13 @@ Een soort notitie app waarbij je ook eventueel dingen kan delen met andere?
 
 → Actief informeren dmv bvb pushberichten</p>
 
-<h3>Schetsen/idee</h3>
+<h3>3. Schetsen/idee</h3>
 <p>Een app die een beetje op een soort soundboard/stream deck lijkt. Dit is zijn enkele knoppen die meerdere acties kunnen doen door bijvoorbeeld zinnen te doen</p>
+<img width="300" alt="Scherm­afbeelding 2025-04-10 om 10 19 55" src="https://github.com/user-attachments/assets/47fb700c-567f-460b-83a2-29cd7c0bf7d9" />
 
 
-
-
-<h2>Test/gesprek 1</h2>
+<h2>Testen</h2>
+<h3>Test/gesprek 1</h3>
 <p>Probleem: Als Eric in de trein zit, dan heeft hij zijn telefoon op zijn controller. Hierdoor beweegt in de trein zijn telefoon. Ook zijn armen bewegen door de trilling in de trein.
 
 → hij gebruikt een android telefoon (google pixel) en werk Iphone → vooral grootte telefoon.
