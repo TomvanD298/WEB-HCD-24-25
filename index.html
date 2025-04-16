@@ -12,35 +12,80 @@
       <img src="./logo.png" />
     </header>
     <main>
+      <div class="filter-controls">
+        <label for="sortSelect">Sorteer:</label>
+        <select id="sortSelect" onchange="sortCategoryButtons()">
+          <option value="added">Toegevoegd</option>
+          <option value="alphabetical">Alfabet</option>
+          <option value="newest">Nieuwste eerst</option>
+          <option value="emoji">Emoji eerst</option>
+          <option value="length-desc">Langste zin eerst</option>
+          <option value="length-asc">Kortste zin eerst</option>
+        </select>
+      </div>
       <div class="grid" id="main-ring">
-        <button onclick="showShortcuts()" class="switchmodus">➕</button>
+        <button onclick="promptNewCategory()" class="switchmodus">➕</button>
+        <button onclick="removeLastText()" class="back">⬅️</button>
+        <button onclick="showCategory('common')" class="switchmodus">💬</button>
         <button onclick="addText('Hey')">👋</button>
-        <button onclick="addText('Ik zit in de trein')">🚆</button>
         <button onclick="addText('Ik reageer zo')">⌛</button>
-        <button onclick="addText('Tot straks!')">📩</button>
-        <button onclick="addText('😂')">😂</button>
-        <button onclick="addText('Wat doe je?')">❓</button>
-        <button onclick="addText('Nieuws lezen')">📰</button>
-        <button onclick="removeLastText()" class="back">🗑️</button>
-        <button onclick="addText('.')" class="tekens">.</button>
-        <button onclick="addText(',')" class="tekens">,</button>
-        <button onclick="addText('?')" class="tekens">?</button>
+        <button onclick="addText('Kan ik je zo even bellen?')">📱</button>
+
+        <button onclick="showCategory('train')" class="switchmodus">🚆</button>
+        <button onclick="showCategory('metro')" class="switchmodus">🚇</button>
+        <button onclick="showCategory('bus')" class="switchmodus">🚌</button>
       </div>
 
       <!-- Shortcuts -->
       <div class="shortcuts" id="shortcut-ring"></div>
+      <div class="shortcuts" id="common-ring" style="display: none"></div>
+      <div class="shortcuts" id="train-ring" style="display: none"></div>
+      <div class="shortcuts" id="metro-ring" style="display: none"></div>
+      <div class="shortcuts" id="bus-ring" style="display: none"></div>
 
       <!-- Output -->
       <div id="output" contenteditable="true"></div>
 
       <div class="actions">
         <button onclick="copyText()">📋 Kopieer</button>
-        <button onclick="clearText()">🧹 Wis</button>
+        <button onclick="clearText()">🗑️ Verwijderen</button>
         <button onclick="shareViaWhatsApp()">📤 Deel via WhatsApp</button>
       </div>
     </main>
     <footer></footer>
 
     <script src="script.js"></script>
+    <script>
+      function sortCategoryButtons() {
+        const sortBy = document.getElementById("sortSelect").value;
+        const mainRing = document.getElementById("main-ring");
+
+        // Verzamel alleen de knoppen vanaf index 6 (de eerste 6 zijn vast)
+        const allButtons = Array.from(mainRing.querySelectorAll("button"));
+        const fixedButtons = allButtons.slice(0, 6);
+        const dynamicButtons = allButtons.slice(6);
+
+        const sortedButtons = [...dynamicButtons];
+
+        if (sortBy === "alphabetical") {
+          sortedButtons.sort((a, b) =>
+            a.textContent.localeCompare(b.textContent, "nl", {
+              sensitivity: "base",
+            })
+          );
+        } else if (sortBy === "added") {
+          // Laat ze staan zoals ze waren: originele volgorde van toevoegen
+          sortedButtons.sort(
+            (a, b) => dynamicButtons.indexOf(a) - dynamicButtons.indexOf(b)
+          );
+        }
+
+        // Eerst alle dynamische knoppen verwijderen
+        dynamicButtons.forEach((btn) => mainRing.removeChild(btn));
+
+        // Daarna opnieuw toevoegen in gesorteerde volgorde
+        sortedButtons.forEach((btn) => mainRing.appendChild(btn));
+      }
+    </script>
   </body>
 </html>

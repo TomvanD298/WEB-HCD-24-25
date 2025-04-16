@@ -1,4 +1,4 @@
-html {
+* {
   margin: 0;
   padding: 0;
 }
@@ -24,9 +24,9 @@ header {
   justify-content: flex-start;
   align-items: center;
   height: 50px;
-  width: 50dvw;
-  margin-left: auto;
-  margin-right: auto;
+  width: 100dvw;
+  background-color: rgb(22, 39, 91);
+  padding: 0.5em 0 0.5em 0;
 }
 
 h1 {
@@ -43,6 +43,20 @@ header img {
   height: 100%;
   object-fit: contain;
   order: 1;
+}
+
+button:active {
+  background-color: #ffd54f !important;
+  transition: background-color 0.1s;
+}
+
+button:focus {
+  outline: none;
+  background-color: #ffe082;
+}
+
+button {
+  transition: background-color 0.2s ease;
 }
 
 .grid {
@@ -113,7 +127,7 @@ header img {
   font-size: 1.3rem;
   border: none;
   border-radius: 8px;
-  background-color: rgb(43, 13, 163);
+  background-color: royalblue;
   color: white;
   font-family: "Inter", sans-serif;
   flex: 1;
@@ -132,7 +146,11 @@ header img {
 }
 
 .switchmodus {
-  background-color: skyblue;
+  background-color: rgb(142, 235, 135);
+}
+
+.backButton {
+  background-color: royalblue;
 }
 
 input {
@@ -143,5 +161,32 @@ input {
 }
 
 .back {
-  background-color: rgb(255, 204, 204);
+  background-color: rgb(249, 120, 120);
+}
+
+.grid button:nth-of-type(n + 4) {
+  background-color: violet;
+}
+
+.grid button:nth-of-type(3),
+.grid button:nth-of-type(n + 7) {
+  background-color: palegoldenrod;
+}
+
+label {
+  color: white;
+}
+
+select {
+  padding: 1rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-family: "Inter", sans-serif;
+  background-color: royalblue;
+  color: white;
+  border: none;
+  width: auto;
+  appearance: none;
+  cursor: pointer;
+  margin: 1em 0;
 }
