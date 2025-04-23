@@ -108,7 +108,7 @@ button {
   font-size: 1.1rem;
   background-color: #fff;
   padding: 1em;
-  min-height: 160px;
+  min-height: 80px;
   border-radius: 8px;
   border: 1px solid #ccc;
 }
@@ -123,7 +123,7 @@ button {
 
 .actions button {
   padding: 1rem 2.2rem;
-  font-size: 1.3rem;
+  font-size: 1rem;
   border: none;
   border-radius: 8px;
   background-color: royalblue;
@@ -157,6 +157,7 @@ button {
 
 .backButton {
   background-color: royalblue;
+  margin-bottom: 10em;
 }
 
 input {
