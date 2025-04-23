@@ -74,6 +74,7 @@ button:focus {
 .grid button {
   width: 100%;
   max-width: 110px;
+  max-height: 110px;
   aspect-ratio: 1 / 1;
   font-size: 2.5em;
   border: none;
@@ -159,7 +160,7 @@ button:focus {
 
 .backButton {
   background-color: rgb(22, 39, 91);
-  margin-bottom: 10em;
+  margin-bottom: 20em;
   color: white;
 }
 
@@ -174,11 +175,14 @@ input {
   background-color: rgb(249, 120, 120);
 }
 
+.grid button:nth-of-type(3) {
+  background-color: rgb(50, 29, 29);
+}
+
 .grid button:nth-of-type(n + 4) {
   background-color: violet;
 }
 
-.grid button:nth-of-type(3),
 .grid button:nth-of-type(n + 7) {
   background-color: palegoldenrod;
 }

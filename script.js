@@ -15,15 +15,6 @@ const categories = {
     ],
     storageKey: 'customShortcuts'
   },
-  common: {
-    containerId: 'common-ring',
-    base: [
-      "Hoe gaat het?",
-      "Ik ben zo terug",
-      "Laat maar weten",
-      "Even bezig, ik reageer zo"
-    ]
-  },
   train: {
     containerId: 'train-ring',
     base: [
@@ -285,3 +276,14 @@ window.addEventListener("DOMContentLoaded", () => {
     createNewCategory(name);
   });
 });
+
+
+function clearAppCache() {
+  if (confirm("Weet je zeker dat je alle opgeslagen gegevens wilt wissen?")) {
+    localStorage.clear();
+    sessionStorage.clear();
+
+    // Eventueel herlaad je de pagina om effect meteen te zien
+    location.reload();
+  }
+}
