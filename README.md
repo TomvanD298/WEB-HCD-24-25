@@ -53,6 +53,11 @@ Een soort notitie app waarbij je ook eventueel dingen kan delen met andere?
 <p>Na een tijdje zelf er mee werken ben ik er achter dat de cirkel niet echt veel toegevoegde waarde heeft. Ik heb er nu een grid van gemaakt en dit maakt het al een stuk overzichtelijker. </p>
 
 
+<h3>Itteratie 3</h3>
+<img width="200" alt="Scherm­afbeelding 2025-04-23 om 12 19 45" src="https://github.com/user-attachments/assets/5a17285d-ad5b-4333-8059-5ff3501c86de" />
+
+<h3>Itteratie 4</h3>
+
 <h2 id="testen">5. Testen</h2>
 <h3>Test/gesprek 1</h3>
 <p>Probleem: Als Eric in de trein zit, dan heeft hij zijn telefoon op zijn controller. Hierdoor beweegt in de trein zijn telefoon. Ook zijn armen bewegen door de trilling in de trein.
@@ -79,6 +84,7 @@ Hij was al erg moe van al het andere testen, dus hij kon niet echt veel testen v
 
 
 <h3>Testen 3</h3>
+<img width="200" alt="Scherm­afbeelding 2025-04-23 om 12 28 44" src="https://github.com/user-attachments/assets/277208c4-22eb-4737-bcb9-356a510ab10f" /><br>
 Vandaag zouden we met de Intercity gaan. Helaas hebben wij alleen het slechte nieuws gekregen dat Eric zijn rolstoel stuk is. <br>
 Nu hebben we met Vasilis besloten om zelf te testen in de trein. We zijn met een klein groepje in de Intercity naar Utrecht gestapt om dit te doen.<br>
 WOW.. Het is mij nog nooit opgevallen dat de trein zo heftig heen en weer schut bij het "balkon" van de trein.
