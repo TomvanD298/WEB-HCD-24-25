@@ -57,12 +57,36 @@ Een soort notitie app waarbij je ook eventueel dingen kan delen met andere?
 <h3>Test/gesprek 1</h3>
 <p>Probleem: Als Eric in de trein zit, dan heeft hij zijn telefoon op zijn controller. Hierdoor beweegt in de trein zijn telefoon. Ook zijn armen bewegen door de trilling in de trein.
 
-→ hij gebruikt een android telefoon (google pixel) en werk Iphone → vooral grootte telefoon.
-→ spraak al geprobeerd, maar vaak door de herrie gaat dit niet goed
-→ Gebruikt de standaard toetsenborden.
-→ swipe toetsenbord vind hij vreselijk
-→ gestures zijn beperkt tot 1 input. Geen pinch oid.</p>
+→ hij gebruikt een android telefoon (google pixel) en werk Iphone → vooral grootte telefoon.<br>
+→ spraak al geprobeerd, maar vaak door de herrie gaat dit niet goed<br>
+→ Gebruikt de standaard toetsenborden.<br>
+→ swipe toetsenbord vind hij vreselijk<br>
+→ gestures zijn beperkt tot 1 input. Geen pinch oid.<br></p>
 
 
 <h3>Testen 2</h3>
-<p>Testen ging goed, Eric vond het een erg goed en leuk concept. Hij was al erg moe van al het andere testen, dus hij kon niet echt heel goed veel doen. </p>
+Het idee was dat we met zn alle in de trein gingen. Dit ging helaas niet door omdat de NS niet optijd mensen en apperatuur hadden kunnen regelen bij het station.. Eric had dit ruim een week van te voren aangegeven. We zijn met de groep in de eerste metro gestapt die er aan kwam. Deze ging naar Isolator weg. Eric vertelde dat de metro ook wel een beetje trilt om het te testen, maar bij lange na niet zo erg als de intercities.<br>
+<img width="200" alt="Scherm­afbeelding 2025-04-23 om 12 28 44" src="https://github.com/user-attachments/assets/00fe6d34-25bc-4f4e-9bf7-b68a156b5612" /><br>
+
+Het testen zelf ging goed, Eric vond het een erg goed en leuk concept.<br>
+Feedback: <br>
+→ Hij wilt graag sorteer en filter opties wilde hebben zodat het zoeken makkelijker gaat.<br>
+→ Meer catogorien<br>
+→ Niet erg om te scrollen<br>
+→ Visuele feedback bij het indrukken van een knop.<br>
+
+Hij was al erg moe van al het andere testen, dus hij kon niet echt veel testen verder.
+
+
+<h3>Testen 3</h3>
+Vandaag zouden we met de Intercity gaan. Helaas hebben wij alleen het slechte nieuws gekregen dat Eric zijn rolstoel stuk is. <br>
+Nu hebben we met Vasilis besloten om zelf te testen in de trein. We zijn met een klein groepje in de Intercity naar Utrecht gestapt om dit te doen.<br>
+WOW.. Het is mij nog nooit opgevallen dat de trein zo heftig heen en weer schut bij het "balkon" van de trein.
+
+Feedback: <br>
+→ Visuele feedback<br>
+→ Knoppen zijn goed en groot genoeg<br>
+→ Apple styling uitzetten<br>
+
+
+<h3>Testen 4</h3>
