@@ -1,7 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-  -webkit-appearance: none;
 }
 
 body {
@@ -58,6 +57,7 @@ button:focus {
 
 button {
   transition: background-color 0.2s ease;
+  -webkit-appearance: none;
 }
 
 .grid {
