@@ -193,7 +193,7 @@ function createNewCategory(name) {
   container.className = "shortcuts";
   container.id = id;
   container.style.display = "none";
-  document.querySelector("main").insertBefore(container, document.getElementById("output"));
+  document.querySelector("main").appendChild(container);
 
   if (typeof categories !== "undefined") {
     categories[name.toLowerCase()] = {

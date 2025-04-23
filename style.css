@@ -70,8 +70,9 @@ button {
 
 .grid button {
   width: 100%;
+  max-width: 110px;
   aspect-ratio: 1 / 1;
-  font-size: 2rem;
+  font-size: 2.5em;
   border: none;
   border-radius: 16px;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
@@ -103,12 +104,9 @@ button {
 }
 
 #output {
-  margin-top: 1rem;
   font-size: 1.1rem;
   background-color: #fff;
   padding: 1em;
-  width: 90dvw;
-  max-width: 360px;
   min-height: 160px;
   border-radius: 8px;
   border: 1px solid #ccc;
@@ -119,7 +117,7 @@ button {
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
-  width: 90dvw;
+  width: 100dvw;
 }
 
 .actions button {
@@ -143,6 +141,13 @@ button {
   background-color: rgb(17, 175, 62);
   color: white;
   flex: 2;
+}
+
+.outputAndShare {
+  position: fixed;
+  bottom: 0;
+  background-color: #cccccc80;
+  width: 100%;
 }
 
 .switchmodus {
@@ -171,6 +176,10 @@ input {
 .grid button:nth-of-type(3),
 .grid button:nth-of-type(n + 7) {
   background-color: palegoldenrod;
+}
+
+.grid button:last-of-type {
+  margin-bottom: 10em;
 }
 
 label {

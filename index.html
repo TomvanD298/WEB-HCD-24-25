@@ -44,48 +44,18 @@
       <div class="shortcuts" id="bus-ring" style="display: none"></div>
 
       <!-- Output -->
-      <div id="output" contenteditable="true"></div>
+      <section class="outputAndShare">
+        <div id="output" contenteditable="true"></div>
 
-      <div class="actions">
-        <button onclick="copyText()">📋 Kopieer</button>
-        <button onclick="clearText()">🗑️ Verwijderen</button>
-        <button onclick="shareViaWhatsApp()">📤 Deel via WhatsApp</button>
-      </div>
+        <div class="actions">
+          <button onclick="copyText()">📋 Kopieer</button>
+          <button onclick="clearText()">🗑️ Verwijderen</button>
+          <button onclick="shareViaWhatsApp()">📤 Deel via WhatsApp</button>
+        </div>
+      </section>
     </main>
     <footer></footer>
 
     <script src="script.js"></script>
-    <script>
-      function sortCategoryButtons() {
-        const sortBy = document.getElementById("sortSelect").value;
-        const mainRing = document.getElementById("main-ring");
-
-        // Verzamel alleen de knoppen vanaf index 6 (de eerste 6 zijn vast)
-        const allButtons = Array.from(mainRing.querySelectorAll("button"));
-        const fixedButtons = allButtons.slice(0, 6);
-        const dynamicButtons = allButtons.slice(6);
-
-        const sortedButtons = [...dynamicButtons];
-
-        if (sortBy === "alphabetical") {
-          sortedButtons.sort((a, b) =>
-            a.textContent.localeCompare(b.textContent, "nl", {
-              sensitivity: "base",
-            })
-          );
-        } else if (sortBy === "added") {
-          // Laat ze staan zoals ze waren: originele volgorde van toevoegen
-          sortedButtons.sort(
-            (a, b) => dynamicButtons.indexOf(a) - dynamicButtons.indexOf(b)
-          );
-        }
-
-        // Eerst alle dynamische knoppen verwijderen
-        dynamicButtons.forEach((btn) => mainRing.removeChild(btn));
-
-        // Daarna opnieuw toevoegen in gesorteerde volgorde
-        sortedButtons.forEach((btn) => mainRing.appendChild(btn));
-      }
-    </script>
   </body>
 </html>
