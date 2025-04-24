@@ -57,6 +57,7 @@ Een soort notitie app waarbij je ook eventueel dingen kan delen met andere?
 <img width="200" alt="Scherm­afbeelding 2025-04-23 om 12 19 45" src="https://github.com/user-attachments/assets/5a17285d-ad5b-4333-8059-5ff3501c86de" />
 
 <h3>Itteratie 4</h3>
+Als laatste Itteratie zou ik nog de feedback puntjes van Eric aanpassen. {Zie Test 4}
 
 <h2 id="testen">5. Testen</h2>
 <h3>Test/gesprek 1</h3>
@@ -96,3 +97,9 @@ Feedback: <br>
 
 
 <h3>Testen 4</h3>
+Vandaag hebben we weer in de klas getest. Eric vond de app super!<br>
+<img width="150" alt="Scherm­afbeelding 2025-04-23 om 12 28 44" src="https://github.com/user-attachments/assets/f76c0fc8-86f6-4847-ac16-8af0dff26b68" /> <br>
+
+Het enige beetje feedback wat hij had was misschien kleurtjes toevoegen aan de nieuwe catogoriën, en dat het niet helemaal intuitief was dat je kon scrollen.
+
+
