@@ -8,12 +8,23 @@
 
 <h2>inhoud:</h2>
 <ol>
+ <a href="#eindproduct"><li>Eindproduct</li></a>
  <a href="#oberservatie"><li>Observaties</li></a>
  <a href="#brainstormen"> <li>Brainstormen</li></a>
  <a href="#schetsen"> <li>Schetsen/idee</li></a>
  <a href="#itteratie"><li>Itteraties</li></a>
  <a href="#testen"><li>Test/Gesprek</li></a>
 </ol>
+
+
+<h2 id="Eindproduct">Eindproduct</h2>
+Het eindproduct is een App die er voor zorgt dat Eric volledige zinnen kan maken en sturen naar andere zonder dat hij ze hoeft te schrijven. Zo kan hij van te voren een lijst maken met dingen die hij vaak gebruikt en veel appt.<br>
+Zo kan hij combinaties maken van zinnen om een heel verhaal te maken, of korte tekstjes sturen zonder dat het veel moeite kost.
+Je kan binnen de App catogorien maken en hier zinnen in zetten. Deze kun je vervolgens weer delen via whatsapp of andere apps.
+
+<img width="250" alt="Scherm­afbeelding 2025-04-24 om 23 02 44" src="https://github.com/user-attachments/assets/0af7b0ec-c1ab-4186-8f47-dea30abbf1ca" />
+<img width="250" alt="Scherm­afbeelding 2025-04-24 om 23 03 25" src="https://github.com/user-attachments/assets/2256d2ee-f525-4ca3-9bd1-887aaf1fe93f" />
+<img width="250" alt="Scherm­afbeelding 2025-04-24 om 23 04 05" src="https://github.com/user-attachments/assets/f3de4487-148d-4ff4-8d62-4f96d930a63d" />
 
 <h2 id="oberservatie">1. Observaties</h2>
 <img width="300" alt="Hand van eric" src="https://github.com/user-attachments/assets/7c6d44ce-4f16-497d-865a-cd3a56a21fb6" />
